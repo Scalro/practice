@@ -36,6 +36,15 @@ class _homepageState extends State<homepage> {
         title: const Text('Practice'),
         centerTitle: true,
       ),
+      body: ListView(
+        children: [
+          Image.asset('assets/images/tech.jpg',
+          width: 600,
+          height: 300,
+          fit: BoxFit.cover,
+          ),
+        ],
+      )
     );
   }
 }
